@@ -1,0 +1,23 @@
+{
+  "test_images": 2326,
+  "test_loss": 0.2811886668205261,
+  "test_accuracy": 0.8882201313972473,
+  "sklearn_accuracy": 0.8882201203783319,
+  "confusion_matrix": [
+    [
+      1004,
+      156
+    ],
+    [
+      104,
+      1062
+    ]
+  ],
+  "best_epoch": 12,
+  "train_accuracy": 0.9285,
+  "val_accuracy": 0.8831,
+  "train_loss": 0.1811,
+  "val_loss": 0.3086,
+  "gate_threshold": 0.2,
+  "gate_accept_rate_on_test": 0.976354256233878
+}

@@ -1,0 +1,18 @@
+Test images:   2326
+Test loss:     0.2812
+Test accuracy: 88.82%
+
+Confusion matrix (rows = actual, cols = predicted):
+[[1004  156]
+ [ 104 1062]]
+
+              precision    recall  f1-score   support
+
+         cat     0.9061    0.8655    0.8854      1160
+         dog     0.8719    0.9108    0.8909      1166
+
+    accuracy                         0.8882      2326
+   macro avg     0.8890    0.8882    0.8882      2326
+weighted avg     0.8890    0.8882    0.8882      2326
+
+Cat/dog gate (EfficientNetB0, threshold 0.2) accepted 97.64% of test cat/dog images

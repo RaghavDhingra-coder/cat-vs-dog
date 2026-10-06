@@ -1,0 +1,7 @@
+tensorflow==2.21.0
+tensorflow-datasets
+importlib_resources
+numpy
+matplotlib
+scikit-learn
+pillow

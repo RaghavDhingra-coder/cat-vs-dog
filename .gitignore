@@ -1,0 +1,44 @@
+# Environment variables / secrets (keep the .env.example templates)
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Dataset (downloaded automatically by TensorFlow Datasets, never commit it)
+tensorflow_datasets/
+ml/data/
+
+# Training checkpoints / logs
+ml/logs/
+ml/checkpoints/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
